@@ -24,12 +24,13 @@ int subarraysum(int A[], int n)
 }
 int main()
 {
-    int arr[]={-2,-5,-6,-2,-3,1,5,-6};
+    int arr[]={-2, -5, 6, -2, -3, 1, 5, -6};
     int n= sizeof(arr)/sizeof(arr[0]);
     cout<<"largest sum in subarray is:"<<subarraysum(arr,n);
     return 0;
 }
 /*-------------------OUTPUT---------------------------
-largest sum in subarray is:6
+largest sum in subarray is:7
 
 === Code Execution Successful ===*/
+
